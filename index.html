@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SKM Studio — Android Mobile Games</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #1b0b16;
+      color: #f8f2f5;
+      line-height: 1.6;
+      padding: 24px 16px;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    header {
+      text-align: center;
+      padding: 32px 16px 28px;
+      border-bottom: 1px solid #3d1c32;
+      margin-bottom: 32px;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #ffd166;
+      letter-spacing: 0.5px;
+    }
+    header p {
+      color: #d6c2ce;
+      margin-top: 8px;
+      font-size: 1rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #ffd166;
+      margin-bottom: 16px;
+    }
+    .games-list {
+      display: grid;
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+    .game-card {
+      background: #2b1122;
+      border: 1px solid #4a203b;
+      border-radius: 14px;
+      padding: 20px;
+    }
+    .game-card h3 {
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+    .game-card p {
+      font-size: 0.95rem;
+      color: #d6c2ce;
+      margin-bottom: 14px;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 9px 14px;
+      border-radius: 8px;
+    }
+    .btn-play {
+      background: #ffd166;
+      color: #1b0b16;
+    }
+    .btn-privacy {
+      background: transparent;
+      color: #ffd166;
+      border: 1px solid #ffd166;
+    }
+    footer {
+      border-top: 1px solid #3d1c32;
+      padding-top: 24px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #bfa6b5;
+    }
+    footer a { color: #ffd166; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>SKM Studio</h1>
+      <p>Independent Android Mobile Game Studio</p>
+    </header>
+
+    <main>
+      <h2>Our Android Games</h2>
+      <div class="games-list">
+
+        <!-- GAME 1: Candy Chocolate Swapper -->
+        <div class="game-card">
+          <h3>Candy Chocolate Swapper</h3>
+          <p>Fast-paced 30-second match-3 puzzle game with glossy candies, combos, and high-score challenges on Android.</p>
+          <div class="links">
+            <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.skmstudio.candysweep" target="_blank" rel="noopener">Google Play</a>
+            <a class="btn btn-privacy" href="./candychocolate-privacy.html">Privacy Policy</a>
+          </div>
+        </div>
+
+        <!-- ==========================================================
+             NAYA GAME ADD KARNE KE LIYE:
+             Upar wale <div class="game-card">...</div> block ko copy karo
+             aur yahin neeche paste karke 4 cheezein badal do:
+             1. <h3> mein naye game ka naam
+             2. <p> mein 1 line description
+             3. Google Play link mein naya package ID (id=com.skmstudio.xxx)
+             4. Privacy Policy link mein nayi file (./game2-privacy.html)
+             ========================================================== -->
+
+      </div>
+    </main>
+
+    <footer>
+      <p>Support &amp; Inquiries: <a href="mailto:samk54750@gmail.com">samk54750@gmail.com</a></p>
+      <p style="margin-top: 8px;">&copy; 2026 SKM Studio. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
